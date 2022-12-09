@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+
+<body>
+    <container class="card shadow-md flex-col justify-between">
+        <section id="sport" class="bg-cover">
+        </section>
+        <section class="w-full border-gray-200">
+            <p class="font-bold pl-2">Jai Alai Scorekeeper</p>
+        </section>
+        <section class="flex pl-2">
+            <div class="flex">
+                <h1 id="p1-pts" class="font-medium text-5xl text-green-500">0</h1>
+                <h3 class="font-medium text-3xl px-2"> to </h3>
+                <h1 id="p2-pts" class="font-medium text-5xl text-blue-500">0</h1>
+            </div>
+            <p id="winner" class="text-4xl"></p>
+        </section>
+        <section class="pl-2">
+            <p>Use the buttons below to keep score</p>
+        </section>
+        <section class="flex pl-2">
+            <p>Play to</p>
+            <select>
+                <option>3</option>
+                <option>5</option>
+                <option>7</option>
+            </select>
+        </section>
+        <section class="grid grid-cols-3 w-full border-solid">
+            <a id="player-one" href="#" class="bg-green-500 hover:bg-green-700 text-white text-center py-2 px-4">
+                +1 Player One
+            </a>
+            <a id="player-two" href="#" class="bg-blue-500 hover:bg-blue-700 text-white text-center py-2 px-4">
+                +1 Player Two
+            </a>
+            <a id="reset" href="#" class="bg-red-500 hover:bg-red-700 text-white text-center py-2 px-4">
+                Reset
+            </a>
+        </section>
+    </container>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
