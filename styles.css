@@ -14,7 +14,6 @@ body {
 
 .card {
     width: 500px;
-    height: 500px;
     border: 1px solid black;
     padding: 0;
 }
@@ -27,7 +26,7 @@ img {
 #sport {
     background-image: url('jai-alai.jpg');
     width: 100%;
-    height: 50%;
+    height: 300px;
 }
 
 .buttons {
